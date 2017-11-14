@@ -18,6 +18,17 @@ public class MainClass03 {
 			System.out.println("달려요!");
 		}
 		
+		//비교연산의 결과로 얻어진 boolean type 데이터를 변수에 담기
+		boolean isGreater = 10 > 1;
+		
+		
+		if(isGreater) {
+			System.out.println("10 은 1 보다 커요");
+		}
+		
+		//논리 연산의 결과로 얻어진 boolean type 데이터를 변수에 담기
+		boolean result = true || false;
+		
 		System.out.println("메인 메소드가 종료 됩니다.");
 	}
 }
