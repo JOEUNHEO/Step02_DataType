@@ -24,6 +24,8 @@ public class MainClass01 {
 		short iShort = 10;
 		int iInt = 10; // 많이 씀
 		long iLong = 10;
+		//long으로 대입하기 위해서는 숫자에 'l'을 붙여야 인식한다. 'l'이 넣으면 int로 인식한다.
+		long lLong = -9223372036854775808l; 
 		
 		int tmp = iByte;
 		// casting 연산자를 이용하기
